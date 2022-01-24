@@ -1,8 +1,8 @@
-:root {            /*criei as variaveis das cores principais*/
+:root {            /*variaveis das cores principais*/
   --vermelho: #e50914;
   --preta: #141414;
 }
-* {           /*formatei a pagina*/
+* {           /*formatar a pagina*/
   margin: 0;
   padding: 0;
   box-sizing: border-box;

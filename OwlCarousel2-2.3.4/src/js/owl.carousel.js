@@ -659,7 +659,7 @@
 	 * Refreshes the carousel primarily for adaptive purposes.
 	 * @public
 	 */
-	Owl.prototype.refresh = function() {
+     Owl.prototype.refresh = function() {
 		this.enter('refreshing');
 		this.trigger('refresh');
 
@@ -1279,7 +1279,7 @@
 	 * @public
 	 * @param {Number} [speed] - The time in milliseconds for the transition.
 	 */
-	Owl.prototype.next = function(speed) {
+     Owl.prototype.next = function(speed) {
 		speed = speed || false;
 		this.to(this.relative(this.current()) + 1, speed);
 	};

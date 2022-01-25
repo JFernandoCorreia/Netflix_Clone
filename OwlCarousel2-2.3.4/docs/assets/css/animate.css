@@ -1294,7 +1294,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     -webkit-animation-name: fadeInUpBig;
     animation-name: fadeInUpBig;
   }
-
+  
   @-webkit-keyframes fadeOut {
     0% {
       opacity: 1;
@@ -1806,7 +1806,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     -webkit-animation-name: flipInY;
     animation-name: flipInY;
   }
-
+  
   @-webkit-keyframes flipOutX {
     0% {
       -webkit-transform: perspective(400px) rotateX(0deg);
@@ -2315,7 +2315,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
       opacity: 0;
     }
   }
-
+  
   @keyframes rotateOutDownRight {
     0% {
       -webkit-transform-origin: right bottom;
@@ -2818,7 +2818,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
       transform: translateX(0px) rotate(0deg);
     }
   }
-
+  
   @keyframes rollIn {
     0% {
       opacity: 0;
@@ -3296,4 +3296,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   .zoomOutUp {
     -webkit-animation-name: zoomOutUp;
     animation-name: zoomOutUp;
-  }
+  }  
